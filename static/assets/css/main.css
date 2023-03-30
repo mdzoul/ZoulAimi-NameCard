@@ -878,7 +878,6 @@ input, select, textarea {
 	}
 
 		.image.filtered:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25));
 			background-size: 128px 128px, auto;
 			pointer-events: none;
 			content: '';
@@ -892,7 +891,6 @@ input, select, textarea {
 		}
 
 		.image.filtered.tinted:after {
-			background-image: url("../../images/overlay.png"), linear-gradient(45deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)), linear-gradient(0deg, rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.125));
 			background-size: 128px 128px, auto, auto;
 		}
 
@@ -976,7 +974,6 @@ input, select, textarea {
 			-moz-object-position: 25% 25%;
 			-webkit-object-position: 25% 25%;
 			-ms-object-position: 25% 25%;
-			object-position: 25% 25%;
 		}
 
 		.image[data-position="75% 25%"] img {
